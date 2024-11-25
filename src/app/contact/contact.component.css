@@ -1,0 +1,101 @@
+.contact-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: black;
+    line-height: 1.6;
+  }
+  
+  .contact-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-header h1 {
+    font-size: 2.5rem;
+    color: #ff6600;
+  }
+  
+  .contact-header p {
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  .contact-form-section {
+    max-width: 600px;
+    margin: 0 auto 40px;
+  }
+  
+  .contact-form-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color:palevioletred;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    background-color: #cc580b;
+    color:black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:disabled {
+    background-color: #e2c0c0;
+    cursor: not-allowed;
+  }
+  
+  .contact-info-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-info-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info-section p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color:white;
+  }
+  
+  .map-section h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .welcome-section {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .welcome-text {
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+
+    
+  }
